@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 3px 9px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+   
+}
+ 
+header h1{
+    margin: 0;
+}
+
+section {
+    padding: 1em;
+}
+
+
+
+#about {
+    text-align: center;
+    padding-top: 120px;
+    position: relative;
+}
+
+#about img {
+    border-radius: 50%;
+    max-width: 30%;
+    position: fixed;
+    top: 20px; /* Adjust the top position as needed */
+    left: 20px; /* Adjust the left position as needed */
+    z-index: 100; /* Ensure the image stays above other elements */
+    
+}
+
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+#areas ul{
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#projects .project {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    #about {
+        padding: 10px;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        margin: 10px;
+    }
+
+    .project {
+        margin-bottom: 10px;
+    }
+}
